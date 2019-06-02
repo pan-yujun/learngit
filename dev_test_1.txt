@@ -14,3 +14,5 @@ git仓库有https链接改为ssh链接
     git remote add origin ssh地址 //添加ssh链接方式
     git push --set-upstream origin master //重新设置上游跟踪分支
     //执行完上面步骤即可重新push代码
+git tag -a v0.1 -m "my version 0.1" // 添加标签
+git push origin --tags //标签不会被push到远程，需要显示推送
